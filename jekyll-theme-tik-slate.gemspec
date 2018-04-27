@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
-  s.name          = 'jekyll-theme-slate'
+  s.name          = 'jekyll-theme-tik-slate'
   s.version       = '0.1.1'
   s.license       = 'CC0-1.0'
-  s.authors       = ['Jason Costello', 'GitHub, Inc.']
-  s.email         = ['opensource+jekyll-theme-slate@github.com']
-  s.homepage      = 'https://github.com/pages-themes/slate'
+  s.authors       = ['Juho Rinta-Paavola', 'Tietokilta ry', 'Jason Costello', 'GitHub, Inc.']
+  s.email         = ['hallitus@tietokilta.fi']
+  s.homepage      = 'https://github.com/jrp6/tik-slate'
   s.summary       = 'Slate is a Jekyll theme for GitHub Pages'
 
   s.files         = `git ls-files -z`.split("\x0").select do |f|
