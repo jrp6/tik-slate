@@ -41,6 +41,24 @@
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
       </footer>
+      <div class="info addressInformation">
+          <b>Tietokilta ry</b> / kiltahuone <br>
+          <a href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Konemiehentie+2,+Espoo,+Suomi&amp;sll=37.0625,-95.677068&amp;sspn=62.057085,106.435547&amp;ie=UTF8&amp;hq=&amp;hnear=Konemiehentie+2,+02150+Espoo,+Finland&amp;ll=60.187158,24.822664&amp;spn=0.004843,0.012993&amp;t=h&amp;z=17" target="_blank">
+              Konemiehentie 2 <br>
+	            02150 Espoo
+          </a>
+          <div class="info contactInformation">
+              email: hallitus (at) tietokilta.fi
+          </div>
+          <div class="info feedbackInformation">
+              Anna palautetta <br>
+              Paljasta hajonnut linkki <br>
+              Copyright © {{ 'now' | date: "%Y" }} Tietokilta ry
+          </div>
+          <div class="sponssit">
+              TÄHÄN TULEE MAIN PARTNERIEN LOGOT
+          </div>
+      </div>
     </div>
 
     {% if site.google_analytics %}
