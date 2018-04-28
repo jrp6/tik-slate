@@ -300,6 +300,7 @@ Full-Width Styles
   font-size: 42px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
+  display: inline;
 }
 
 #project_tagline {
@@ -308,6 +309,15 @@ Full-Width Styles
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
+}
+
+#lang-selector {
+  float: right;
+  list-style-type: none;
+}
+
+#lang-selector a {
+  color: silver;
 }
 
 #downloads {
@@ -471,4 +481,11 @@ Small Device Styles
     font-size: 11px;
   }
 
+}
+
+/*
+ * Bold current language in language selector
+ */
+.en:lang(en), .fi:lang(fi) {
+    font-weight: bold;
 }
